@@ -565,7 +565,7 @@ def parse_opt(known=False):
         - Tutorial: https://docs.ultralytics.com/yolov5/tutorials/train_custom_data
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument("--weights", type=str, default=ROOT / "yolov5n.pt", help="initial weights path")
+    parser.add_argument("--weights", type=str, default=ROOT / "weight/yolov5n.pt", help="initial weights path")
     parser.add_argument('--cfg', type=str, default=ROOT/'yolov5n_DSC+cbam+ghost.yaml', help='model.yaml path')
     parser.add_argument("--data", type=str, default=ROOT / "data/qingke.yaml", help="dataset.yaml path")
     parser.add_argument("--hyp", type=str, default=ROOT / "data/hyps/hyp.scratch-low.yaml", help="hyperparameters path")
