@@ -8,4 +8,4 @@ The model base YOLOv5sn from https://github.com/ultralytics/yolov5, combining wi
 
 
 #Dateset
-The highland barley dataset are available from https://github.com/trangle666ddd/Dataset-of-highland-barley
+The highland barley dataset are available from https://modelscope.cn/datasets/Cai121/highland_barley.
